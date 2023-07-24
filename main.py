@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from router import listsize
+from router import listsize, area
 
 app = FastAPI()
 
 list_router = [
+    area.router,
     listsize.router
 ]
 for router in list_router:
