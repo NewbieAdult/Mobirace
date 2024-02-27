@@ -7,3 +7,16 @@ sqlalchemy_utils
 python-jose
 mysql-connector-python
 python-multipart
+python-dotenv
+httpx
+authlib
+requests
+coroutine
+apscheduler
+schedule
+fastapi-scheduler
+python-dateutil 
+polyline
+ldap3
+python-dotenv
+premailer
